@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Employee Management</title>
+<link rel="stylesheet" href="employees.css">
+</head>
+<body>
+<div class="container">
+    <h1>Employee Management System</h1>
+    <div class="search">
+        <input type="text" id="searchInput" placeholder="Search by name...">
+        <button onclick="search()">Search</button>
+    </div>
+    <div id="searchResults"></div>
+    <h2>Add New Employee</h2>
+    <div class="addEmployee">
+        <label for="empName">Name:</label>
+        <input type="text" id="empName">
+        <label for="empSurname">Surname:</label>
+        <input type="text" id="empSurname">
+        <label for="empSalary">Salary:</label>
+        <input type="number" id="empSalary">
+        <label for="empLevel">Level:</label>
+        <input type="text" id="empLevel">
+        <button onclick="addEmployee()">Add Employee</button>
+    </div>
+</div>
+<script src="employees.js"></script>
+</body>
+</html>

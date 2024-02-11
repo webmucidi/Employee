@@ -1,0 +1,24 @@
+[
+    {
+      "emplyId": 1,
+      "emplyName": "John",
+      "emplySurname": "Doe",
+      "emplySalary": 50000,
+      "emplyLevel": "Senior"
+    },
+    {
+      "emplyId": 2,
+      "emplyName": "Jane",
+      "emplySurname": "Smith",
+      "emplySalary": 60000,
+      "emplyLevel": "Manager"
+    },
+    {
+      "emplyId": 3,
+      "emplyName": "David",
+      "emplySurname": "Johnson",
+      "emplySalary": 45000,
+      "emplyLevel": "Junior"
+    }
+  ]
+  
