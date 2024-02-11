@@ -1,0 +1,11 @@
+{
+  "name": "employee-main",
+  "version": "1.0.0",
+  "description": "",
+  "main": "employees.js",
+  "scripts": {
+    "json:server": "json-server --watch employees.json"
+  },
+  "author": "",
+  "license": "ISC"
+}
